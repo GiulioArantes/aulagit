@@ -14,7 +14,7 @@ programa
 		para(inteiro i = 1; i < 10; i+=2) {
 			escreva(vetor[i], " ")
 		}
-		escreva("\n", "Elementos nos índices ímpares: \n")
+		escreva("\n", "Elementos pares: \n")
 		para(inteiro i = 0; i < 10; i++) {
 			se(vetor[i] % 2 == 0) {
 				escreva(vetor[i], " ")
